@@ -1,0 +1,9 @@
+.text-primary{
+    color: #02C39A!important;
+}
+header i{
+    color: #4e4d4d;
+}
+header i:hover{
+    color: #02C39A;
+}
