@@ -7,3 +7,8 @@ header i{
 header i:hover{
     color: #02C39A;
 }
+
+nav{
+    /* background-color: #02C39A; */
+    background: linear-gradient(45deg, #02C39A, #02c399b7, #02C39A);
+}
