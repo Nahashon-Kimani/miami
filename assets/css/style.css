@@ -9,7 +9,7 @@ header i:hover{
 }
 
 nav{
-    /* background-color: #02C39A; */
+    /* background-color: #02C39A; */ 
     /* background: linear-gradient(45deg, #02C39A, #02c399b7, #02C39A); */
 }
 
@@ -25,4 +25,37 @@ nav a, a.navbar-brand{
     padding-top: 30px!important;
     padding-bottom: 30px!important;
     font-size: 24px;
+}
+
+/* Carousel  */
+.main-slider img{
+    max-height: 80vh!important;
+}
+
+/* Program Stylings */
+.program{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.program .card img{
+    height: 300px;
+    opacity: .8;
+}
+.program .card:hover img{
+    opacity: 1;
+}
+
+.program .card:hover .card{
+    transform: scale(1.1);
+}
+
+.program .card:hover .card-body{
+    color: white;
+    background: linear-gradient(to left, #02c3999c, #02C39A); 
+}
+
+.program .card {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
