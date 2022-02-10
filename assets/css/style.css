@@ -59,3 +59,30 @@ nav a, a.navbar-brand{
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
+.pricing{
+    /* background-image: url('../images/2.jpg'); */
+    background: linear-gradient(45deg, #02c3997c, #02c3993b), url('../images/2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Timetable */
+.timetable{
+    padding-top: 80px;
+    padding-bottom: 80px;
+} 
+.timetable p.title{
+    background: linear-gradient(to left, #02c39975, #02C39A);
+    color: #fdfdfd;
+    padding: 16px 12px; 
+    font-size: 24px;
+    font-weight: 400;
+}
+.timetable img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
